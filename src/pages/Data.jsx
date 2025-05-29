@@ -36,7 +36,7 @@ const Data = () => {
             </div>
             <div className='flex flex-col md:hidden w-full'>
                 <img id='img' className='max-h-[80vh] fixed left-[-15px] right-0 p-10 w-[85vh] mx-5 object-contain' src={images[currentImage]} alt="" />
-                <div className='w-full fixed bottom-40 flex md:hidden items-center mt-8 justify-between px-10 left-0 right-0'>
+                <div className='w-full fixed bottom-24 flex md:hidden items-center mt-8 justify-between px-10 left-0 right-0'>
                     <button onClick={() => preImage()} className='  items-center  justify-center text-lg  w-36 h-20 sm:h-16 bg-white text-[#6a11cb] font-bold rounded-full shadow-md hover:scale-105 transition-transform duration-300'>← Previous</button>
                     <button onClick={() => nextImage()} className=' items-center justify-center text-lg w-36 h-20 sm:h-16 bg-white text-[#6a11cb] font-bold rounded-full shadow-md hover:scale-105 transition-transform duration-300'>Next →</button>
                 </div>
