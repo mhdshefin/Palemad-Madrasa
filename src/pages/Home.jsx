@@ -1,8 +1,7 @@
-import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 
 
-const Home = () => {
+const home = () => {
 
   const navigate = useNavigate()
 
@@ -17,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default home
