@@ -13,7 +13,7 @@ const Home = () => {
         </h1>
       </div>
       <button onClick={() => navigate("/cover")} className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:w-72 w-56 h-16 sm:h-20  rounded-full sm:p-4 px-3  text-white sm:font-semibold sm:text-lg text-sm bg-[rgba(255,255,255,0.2)] border-[#fff] border-[0.2px] shadow-md hover:scale-105 transition-transform duration-300'>EXPLORE OUR MAGAZINE →</button>
-      <div className='w-full fixed bottom-0 right-0 px-8 pb-8'>
+      <div className='w-full fixed bottom-0 right-0 px-8 pb-2'>
         <div className='flex flex-col items-end'>
           <div className='w-full flex items-end justify-end sm:px-10 px-6'>
           <h4 className='text-[#ffffffb3] sm:text-xs text-[12px] font-medium tracking-widest uppercase mb-1'>CREATED BY</h4>
