@@ -19,13 +19,13 @@ const Home = () => {
           <h4 className='text-[#ffffffb3] sm:text-xs text-[12px] font-medium tracking-widest uppercase mb-1'>CREATED BY</h4>
           </div>
           <div className='flex sm:gap-3 gap-1 items-center'>
-            <a className='text-[#2732ac] sm:text-sm text-xs font-bold hover:text-[#facc15] transition-colors duration-200' href="https://www.instagram.com/hanan_p_t_?igsh=MTgwd3ppOTF4cG1udA==" target="_blank" rel="noopener noreferrer" >Hanan PT </a>
+            <a className='text-[#2732ac] sm:text-sm text-xs font-bold hover:text-[#facc15] transition-colors duration-200' href="https://www.instagram.com/hanan_p_t_?igsh=MTgwd3ppOTF4cG1udA==" target="_blank" rel="noopener noreferrer" >Hanan PT</a>
             <p className='text-[#fff] font-medium'>&</p>
-            <a className='text-[#2732ac] sm:text-sm text-xs font-bold hover:text-[#facc15] transition-colors duration-200' href="https://www.instagram.com/__shefin._4?igsh=bXprdjRtY25xZTU2" target="_blank" rel="noopener noreferrer" > Shefin PT </a>
+            <a className='text-[#2732ac] sm:text-sm text-xs font-bold hover:text-[#facc15] transition-colors duration-200' href="https://www.instagram.com/__shefin._4?igsh=bXprdjRtY25xZTU2" target="_blank" rel="noopener noreferrer" > Shefin PT</a>
           </div>
         </div>
       </div>
-    </div >
+    </div > 
   )
 }
 
